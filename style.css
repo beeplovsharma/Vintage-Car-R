@@ -166,6 +166,9 @@ html,body{
 }
 
 @media(width<=500px){
+    #nav{
+        padding: 2vw 3vw;
+    }
     #nav-mid h1{
         font-size: 9vw;
     } 
@@ -187,9 +190,13 @@ html,body{
         width:50vw;
     }
 
-    /* #main-bottom{
+    #main-text {
+        margin-top: 30vw;
+    }
+
+    #main-bottom{
         bottom: 15%;
-    } */
+    }
 
     #main-bottom>img {
         width: 80vw;
@@ -206,7 +213,52 @@ html,body{
     }
 
     #tagline {
-        font-size: 2vw;
-        margin: 1px 0;
+        font-size: 2.5vw;
+        margin: 6px 0px;
+    }
+}
+
+@media (500px < width <= 1024px){
+    #nav i{
+        font-size: 3vw;
+    }
+
+    #nav-mid h1{
+        font-size: 9vw;
+    } 
+
+    #main .car{
+        width: 30vw;
+    }
+
+    #main #car-1{
+        width:50vw;
+    }
+
+    #main-text {
+        margin-top: 20vw;
+    }
+
+    #main-bottom{
+        bottom: 15%;
+    }
+
+    #main-bottom>img {
+        width: 80vw;
+    }
+
+    #main-bottom>p {
+        font-size: 3vw;
+        padding: 2vw 0;
+    }
+
+    #main-button {
+        padding: 1.2vw 3.8vw;
+        font-size: 2.7vw;
+    }
+
+    #tagline {
+        font-size: 2.5vw;
+        margin: 6px 0px;
     }
 }
